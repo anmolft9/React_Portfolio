@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.hero {
+  /* width: 150vw;
+  height: 150vh; */
+  width: 100%;
   min-height: 100vh;
+
+  background: url(./Assets/home-bg.jpg) no-repeat repeat center;
+}
+
+/* .picture {
+  min-height: 30vh;
+} */
+
+/* about me */
+.abt {
+  border-bottom: 1px solid black;
+}
+
+ul > li {
+  display: flex;
+}
+
+.skills {
+  background: rgb(200, 197, 197);
+}
+
+.icons i {
+  font-size: 5rem;
+}
+
+.icons > div {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0.5rem 0.5rem;
+  margin: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.icons i {
+  font-size: 5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icons > div {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.5rem;
+  margin: 1rem;
 }
+
+/* projects */
+.projects .row {
+  --bs-gutter-x: 0;
+}
+
+/* .project-content p {
+  font-weight: 1rem;
+} */
