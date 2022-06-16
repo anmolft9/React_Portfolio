@@ -6,27 +6,25 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div class="wrapper">
-      {/* <!-- hero and navbar --> */}
-      <Hero />
-
-      {/* <!-- about me --> */}
-      <About />
-
-      {/* <!-- skills --> */}
-      <Skills />
-
-      {/* <!-- project section --> */}
-      <Projects />
-
-      {/* <!-- contact section --> */}
-      <Contact />
-
-      {/* <!-- footer section --> */}
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          {/* <!-- hero and navbar --> */}
+          <Route path="/" element={<Hero />} />
+          {/* <!-- about me --> */}
+          <Route path="/about" element={<About />} />
+          {/* <!-- skills --> */}
+          <Route path="/skills" element={<Skills />} />
+          {/* <!-- project section --> */}
+          <Route path="/projects" element={<Projects />} />
+          {/* <!-- contact section --> */}
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

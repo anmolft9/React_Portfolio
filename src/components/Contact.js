@@ -1,8 +1,9 @@
 import "../App.css";
+import { Layout } from "./Layout";
 
 export const Contact = () => {
   return (
-    <div id="contact" class="container">
+    <Layout>
       <div class="title mt-5">
         <h3 class="abt mb-4">Contact Via</h3>
       </div>
@@ -15,6 +16,6 @@ export const Contact = () => {
           <i class="fa-brands fa-linkedin text-primary"></i>
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };

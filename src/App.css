@@ -6,7 +6,7 @@ body {
   /* width: 150vw;
   height: 150vh; */
   width: 100%;
-  min-height: 100vh;
+  min-height: 150vh;
 
   background: url(./Assets/home-bg.jpg) no-repeat repeat center;
 }
@@ -53,6 +53,14 @@ ul > li {
 /* projects */
 .projects .row {
   --bs-gutter-x: 0;
+}
+
+.navbar {
+  background-color: rgb(212, 212, 212);
+}
+
+.navbar-toggler-icon {
+  border-color: rgb(255, 102, 203);
 }
 
 /* .project-content p {
