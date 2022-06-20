@@ -1,21 +1,67 @@
-import "../App.css";
+import React from "react";
+
+import { Container, Row, Col } from "react-bootstrap";
 import { Layout } from "./Layout";
+import "../App.css";
 
 export const Contact = () => {
   return (
     <Layout>
-      <div class="title mt-5">
-        <h3 class="abt mb-4">Contact Via</h3>
-      </div>
-
-      <div class="row fa-3x mb-5">
-        <div class="col d-flex justify-content-around ">
-          <i class="fa-brands fa-facebook-square text-primary"></i>
-          <i class="fa-brands fa-instagram-square text-danger"></i>
-          <i class="fa-solid fa-envelope text-info"></i>
-          <i class="fa-brands fa-linkedin text-primary"></i>
-        </div>
-      </div>
+      <Container fluid className="home-about-section" id="about">
+        <Container>
+          <Row>
+            <Col md={12} className="home-about-social">
+              <h1>FIND ME ON</h1>
+              <p>
+                Please, feel free to <span className="purple">connect </span>
+                with me
+              </p>
+              <ul className="home-about-social-links">
+                <li className="social-icons">
+                  <a
+                    href="https://github.com/anmolft9"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                  >
+                    <i className="fab fa-github"></i>
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="https://www.facebook.com/anmole.bhattarai/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                  >
+                    <i className="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="https://www.linkedin.com/in/anmol-bhattarai-b66835193/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                  >
+                    <i className="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="https://www.instagram.com/an_mol_ft9/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour home-social-icons"
+                  >
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </Col>
+          </Row>
+        </Container>
+      </Container>
     </Layout>
   );
 };
