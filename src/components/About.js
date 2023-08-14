@@ -5,16 +5,22 @@ import { Layout } from "./Layout";
 export const About = () => {
   return (
     <Layout>
-      <div id="about" class="container mb-5">
+      <div id="about" class="container mb-5 vh-100">
         <div class="abt-title mt-5">
           <h3 class="abt mb-4">About me</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-            voluptates iste dicta, recusandae architecto dignissimos reiciendis
-            placeat autem dolore illo commodi quo, quae voluptatum rem est
-            doloremque perspiciatis natus molestias nemo et labore sequi unde
-            atque reprehenderit. Est veritatis odit officiis iure aliquid
-            exercitationem sint, ut, modi, amet temporibus illum.
+            <span>Graduate Software Developer(Engineer)</span> with Master’s
+            degree in Technology(Software Engineering) from the
+            <span> Federation University</span>. I have always been interested
+            to learn and implement various computer languages since I was a kid
+            and have the capability to solve the problems logically using the
+            modern tools. I have always been a very good learner. I have got a
+            very good communication skills as well. So, now as I have completed
+            my master's, my desire to work in an IT industry is growing day by
+            day. I want to start my career as a
+            <span> Software/ Web developer</span> and keep growing on as a
+            Professional. THANK YOU for making time to know about me. I really
+            APPRECIATE it. Stay happy and healthy.😁
           </p>
         </div>
         <div class="row">
@@ -24,25 +30,27 @@ export const About = () => {
           <div class="col-lg-8">
             <h2>Web/ Software Developer</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-              deserunt necessitatibus sit dignissimos reprehenderit ipsum
-              excepturi temporibus quod aut ullam.\
+              Till now, I have got the skills on{" "}
+              <span>
+                HTML, CSS, BOOTSTRAP, JAVASCRIPT, NODEJS, ReactJS, JAVA, MYSQL,
+                Mongo DATABASE and BASIC PHP
+              </span>
             </p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li>Birthday:</li>
-                  <li>website</li>
-                  <li>Phone:</li>
-                  <li>City:</li>
+                  <li>Birthday: 16 January 1995</li>
+                  <li>website: </li>
+                  <li>Phone: (+61) 0420724335</li>
+                  <li>City: Canberra</li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li>Age:</li>
-                  <li>Degree:</li>
-                  <li>Email:</li>
-                  <li>Freelance:</li>
+                  <li>Age: 27</li>
+                  <li>Degree: Master</li>
+                  <li>Email: anmol.bhattarai18@gmail.com</li>
+                  <li>Freelance: Available</li>
                 </ul>
               </div>
             </div>
@@ -50,12 +58,10 @@ export const About = () => {
         </div>
         <div class="abt-last mt-5">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
-            doloremque aspernatur sit iste dolores. Eum at esse odit possimus
-            pariatur deleniti iure quisquam laudantium blanditiis eligendi,
-            eaque impedit error excepturi facilis, nemo natus velit a reiciendis
-            maiores corporis! Totam dolorum veritatis suscipit aperiam culpa
-            ullam sit dignissimos quidem illum alias.
+            I am always keen on upgrading my skills. So, at the moment, I am
+            studying Full stack development/MERN Stack devepment at{" "}
+            <span>Dented Code Academy</span> as I want to go more advanced on
+            the <span>JAVASCRIPT</span>.
           </p>
         </div>
       </div>

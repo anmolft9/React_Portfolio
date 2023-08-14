@@ -5,10 +5,12 @@ body {
 .hero {
   /* width: 150vw;
   height: 150vh; */
-  width: cover;
-  min-height: 150vh;
 
-  background: url(./Assets/home-bg.jpg) no-repeat repeat center;
+  min-height: 95vh;
+
+  background: url(./Assets/ales-nesetril-Im7lZjxeLhg-unsplash.jpg) no-repeat
+    repeat center;
+  background-size: 100%;
 }
 
 /* .picture {
@@ -56,13 +58,20 @@ ul > li {
 }
 
 .navbar {
-  background-color: rgb(212, 212, 212);
+  background-color: black;
+  border: none;
 }
 
 .navbar-toggler-icon {
-  border-color: rgb(255, 102, 203);
+  border-color: rgb(248, 242, 246);
 }
 
 /* .project-content p {
   font-weight: 1rem;
 } */
+
+span {
+  color: purple;
+  text-transform: uppercase;
+  font-weight: bold;
+}

@@ -10,14 +10,14 @@ export const Contact = () => {
       <Container fluid className="home-about-section" id="about">
         <Container>
           <Row>
-            <Col md={12} className="home-about-social">
+            <Col className="home-about-social">
               <h1>FIND ME ON</h1>
               <p>
                 Please, feel free to <span className="purple">connect </span>
                 with me
               </p>
-              <ul className="home-about-social-links">
-                <li className="social-icons">
+              <Row>
+                <Col>
                   <a
                     href="https://github.com/anmolft9"
                     target="_blank"
@@ -26,7 +26,11 @@ export const Contact = () => {
                   >
                     <i className="fab fa-github"></i>
                   </a>
-                </li>
+                </Col>
+              </Row>
+
+              <ul className="home-about-social-links">
+                <li className="social-icons"></li>
                 <li className="social-icons">
                   <a
                     href="https://www.facebook.com/anmole.bhattarai/"
